@@ -1,0 +1,296 @@
+{
+ "store": {
+  "title": "ROCCO The Cheesecake Lab.",
+  "heroImageUrls": [
+   {
+    "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1567cb64c85b30e3191bc51c34d0e1a0/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+    "width": 240
+   },
+   {
+    "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1567cb64c85b30e3191bc51c34d0e1a0/c67d558c633281f9c71fc6a90ef470ae.jpeg",
+    "width": 550
+   },
+   {
+    "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1567cb64c85b30e3191bc51c34d0e1a0/8681e511c0910e0052cb155c50f01f89.jpeg",
+    "width": 640
+   },
+   {
+    "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1567cb64c85b30e3191bc51c34d0e1a0/6ea4f72e303000fbf403bbb36f971f85.jpeg",
+    "width": 750
+   },
+   {
+    "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1567cb64c85b30e3191bc51c34d0e1a0/4bee0baf259f2b3c95aacdebea87e950.jpeg",
+    "width": 1080
+   },
+   {
+    "url": "https://tb-static.uber.com/prod/image-proc/processed_images/1567cb64c85b30e3191bc51c34d0e1a0/5283d81c664b43c5f57a3a186d273063.jpeg",
+    "width": 2880
+   }
+  ],
+  "location": {
+   "address": "Carrer De Roger De Llòria 20, València, EMEA 46002",
+   "streetAddress": "Carrer de Roger de Llòria 20",
+   "city": "València",
+   "country": "ES",
+   "postalCode": "46002",
+   "region": "EMEA",
+   "latitude": 39.4691,
+   "longitude": -0.37347,
+   "geo": {},
+   "locationType": "PHYSICAL"
+  },
+  "rating": {
+   "ratingValue": 4.8,
+   "reviewCount": "100+"
+  },
+  "hours": [
+   {
+    "dayRange": "Domingo - Jueves",
+    "sectionHours": [
+     {
+      "startTime": 660,
+      "endTime": 1320,
+      "sectionTitle": ""
+     }
+    ]
+   },
+   {
+    "dayRange": "Viernes - Sábado",
+    "sectionHours": [
+     {
+      "startTime": 660,
+      "endTime": 1380,
+      "sectionTitle": ""
+     }
+    ]
+   }
+  ],
+  "phone": "+34642427377",
+  "sectionsMeta": [
+   {
+    "subsectionUuids": [
+     "0379a62a-1156-4ddb-a09a-7e1dc45d5dfb",
+     "4f2f52a6-6b9b-45a6-82f2-6ce217da91cf",
+     "89340ef5-0631-4a91-9979-01082db0892b"
+    ],
+    "title": "Menú",
+    "subtitle": "11:00 – 23:00",
+    "uuid": "3285e403-34a2-4bf9-a8a4-570ccd362558",
+    "isTop": true,
+    "isOnSale": true
+   }
+  ]
+ },
+ "sections": [
+  {
+   "sid": "3285e403-34a2-4bf9-a8a4-570ccd362558",
+   "title": "Artículos destacados",
+   "items": [
+    {
+     "uuid": "211c7ef2-e746-4f27-a264-69e49963346e",
+     "title": "Tarta de Fresa (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/470193c1b0561de2047c1e8db7d11b6b/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "7b3b3485-6d83-4df8-a1bb-a8fa52a52029",
+     "title": "Tarta de Pistacho (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Una de nuestras creaciones más exclusivas.\nCheesecake cremosa elaborada con pistacho de alta calidad, que aporta intensidad, aroma y un sabor profundo y natural. Su textura suave y su carácter gourmet la convierten en una experiencia única para los amantes del pistacho.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/8ce6a35f4809d9c7a39a4d41e2ab680a/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "1b0085f4-4cd8-43f3-95a7-86397da8254e",
+     "title": "Tarta La Clásica (6-8 Personas)",
+     "price": 35.9,
+     "desc": "La esencia de nuestra marca.\nUna tarta de queso artesanal de textura ultra cremosa, elaborada con una cuidada selección de quesos y un horneado preciso que realza su sabor natural. Equilibrada, elegante y atemporal.\nLa elección perfecta para quienes buscan la autenticidad del verdadero cheesecake.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/7b191c3900ed2e947bf653852cc4541f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "a69c0ba2-267f-4f30-b12b-696a507f11a6",
+     "title": "Tarta de Lotus & Dulce de Leche (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Puro placer en cada bocado.\nUna cheesecake cremosa que combina la intensidad caramelizada de la galleta Lotus con la suavidad del dulce de leche. Rica, equilibrada y adictiva, pensada para los paladares más golosos",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/d99aa0015d90802b5ffbda5314537b86/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "c9fb4962-20f3-462e-8c16-2def81ab1c01",
+     "title": "Tarta de Mango (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/c3dcec210c27a9e91d17b5bdeff5da64/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "4665bd94-eae1-4636-9fa4-0b32e4d19f1d",
+     "title": "Tarta de Arándanos (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Deliciosa tarta de arándanos para 6–8 personas. Ideal para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/cad3817fe4c5e8e828d399fdf8a79fb2/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    }
+   ]
+  },
+  {
+   "sid": "3285e403-34a2-4bf9-a8a4-570ccd362558",
+   "title": "Tartas 2-3 Raciones",
+   "items": [
+    {
+     "uuid": "bed3f0a4-0d2c-4bc2-9722-bd693f68bca0",
+     "title": "Tarta de La Clásica (2-3 Personas)",
+     "price": 15.9,
+     "desc": "La esencia de nuestra marca.\nUna tarta de queso artesanal de textura ultra cremosa, elaborada con una cuidada selección de quesos y un horneado preciso que realza su sabor natural. Equilibrada, elegante y atemporal.\nLa elección perfecta para quienes buscan la autenticidad del verdadero cheesecake.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/ed746f936e202a7f8495e63ea48ffa43/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "7e23d33e-4d28-4a62-95ce-885a104839f8",
+     "title": "Tarta de Pistacho (2-3 Personas)",
+     "price": 16.9,
+     "desc": "Una de nuestras creaciones más exclusivas.\nCheesecake cremosa elaborada con pistacho de alta calidad, que aporta intensidad, aroma y un sabor profundo y natural. Su textura suave y su carácter gourmet la convierten en una experiencia única para los amantes del pistacho.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/ba649ef30127aecf5483188e4bf8b40f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "761ca0c5-a89a-4de5-a600-87889bfc6641",
+     "title": "Tarta de Chocolate (2-3 Personas)",
+     "price": 15.9,
+     "desc": "Intensa, sedosa y profundamente golosa.\nNuestra tarta de queso de chocolate fusiona la suavidad del queso con la riqueza del chocolate, creando una textura untuosa y un sabor elegante y persistente. Una opción irresistible para los amantes del cacao.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/2ee560bc10b0597581289284229d9547/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "af59dab0-709c-4363-b09f-fb521e380a91",
+     "title": "Tarta de Lotus & Dulce de Leche (2-3 Personas)",
+     "price": 15.9,
+     "desc": "Puro placer en cada bocado.\nUna cheesecake cremosa que combina la intensidad caramelizada de la galleta Lotus con la suavidad del dulce de leche. Rica, equilibrada y adictiva, pensada para los paladares más golosos",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/a74e99f68827fe9dab44df943914d8a8/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "b6b5c57b-c3e8-45f6-94a2-bbca865ece6d",
+     "title": "Tarta de Arándanos (2-3 Personas)",
+     "price": 15.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/cad3817fe4c5e8e828d399fdf8a79fb2/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "b6c8e512-275a-4c8f-9343-aa2d3f5e9c8c",
+     "title": "Tarta de Avellana (2-3 Personas)",
+     "price": 15.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/52517ad7303525e9648b021bec75bf90/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "55a4fed7-005d-40fd-90f0-c60da0995a10",
+     "title": "Tarta de Fresa (2-3 Personas)",
+     "price": 15.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/470193c1b0561de2047c1e8db7d11b6b/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "0b53b571-aed7-483f-851a-df48f4970efc",
+     "title": "Tarta de Mango (2-3 Personas)",
+     "price": 15.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/c3dcec210c27a9e91d17b5bdeff5da64/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "b85463c1-61c3-44e2-becf-13509d7389a8",
+     "title": "Tarta de Chocolate Blanco (2-3 Personas)",
+     "price": 15.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/9d894da1d6bd359b459d56c91f30c94f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    }
+   ]
+  },
+  {
+   "sid": "3285e403-34a2-4bf9-a8a4-570ccd362558",
+   "title": "Tartas 6-8 Raciones",
+   "items": [
+    {
+     "uuid": "1b0085f4-4cd8-43f3-95a7-86397da8254e",
+     "title": "Tarta La Clásica (6-8 Personas)",
+     "price": 35.9,
+     "desc": "La esencia de nuestra marca.\nUna tarta de queso artesanal de textura ultra cremosa, elaborada con una cuidada selección de quesos y un horneado preciso que realza su sabor natural. Equilibrada, elegante y atemporal.\nLa elección perfecta para quienes buscan la autenticidad del verdadero cheesecake.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/7b191c3900ed2e947bf653852cc4541f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "7b3b3485-6d83-4df8-a1bb-a8fa52a52029",
+     "title": "Tarta de Pistacho (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Una de nuestras creaciones más exclusivas.\nCheesecake cremosa elaborada con pistacho de alta calidad, que aporta intensidad, aroma y un sabor profundo y natural. Su textura suave y su carácter gourmet la convierten en una experiencia única para los amantes del pistacho.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/8ce6a35f4809d9c7a39a4d41e2ab680a/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "684e2bbb-1404-403b-a4ee-b1595b33c5da",
+     "title": "Tarta de Chocolate (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Intensa, sedosa y profundamente golosa.\nNuestra tarta de queso de chocolate fusiona la suavidad del queso con la riqueza del chocolate, creando una textura untuosa y un sabor elegante y persistente. Una opción irresistible para los amantes del cacao.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/a7e8cc444da0d3103d7ca8f6a21268d7/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "a69c0ba2-267f-4f30-b12b-696a507f11a6",
+     "title": "Tarta de Lotus & Dulce de Leche (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Puro placer en cada bocado.\nUna cheesecake cremosa que combina la intensidad caramelizada de la galleta Lotus con la suavidad del dulce de leche. Rica, equilibrada y adictiva, pensada para los paladares más golosos",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/d99aa0015d90802b5ffbda5314537b86/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "4665bd94-eae1-4636-9fa4-0b32e4d19f1d",
+     "title": "Tarta de Arándanos (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Deliciosa tarta de arándanos para 6–8 personas. Ideal para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/cad3817fe4c5e8e828d399fdf8a79fb2/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "c9fb4962-20f3-462e-8c16-2def81ab1c01",
+     "title": "Tarta de Mango (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/c3dcec210c27a9e91d17b5bdeff5da64/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "211c7ef2-e746-4f27-a264-69e49963346e",
+     "title": "Tarta de Fresa (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/470193c1b0561de2047c1e8db7d11b6b/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "76dbf92e-d68f-4d5a-a11c-340ebbc3e533",
+     "title": "Tarta de Chocolate Blanco (6-8 Personas)",
+     "price": 35.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/9d894da1d6bd359b459d56c91f30c94f/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    },
+    {
+     "uuid": "041c332f-00cb-483a-ab99-3d1208c2017a",
+     "title": "Tarta de Avellana (6-8 Personas)",
+     "price": 33.9,
+     "desc": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+     "img": "https://tb-static.uber.com/prod/image-proc/processed_images/52517ad7303525e9648b021bec75bf90/70aa2a4db7f990373ca9c376323e3dea.jpeg",
+     "soldOut": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+  "_note": "Цены tienda, прочитанные с фото гостей в карточке Google (панель Поиска, 18.09.2026). Номера фото — индексы _data/photos/thumb/index.json.",
+  "board": {
+    "_source": "фото №208: акриловая табличка-арка у кассы, ES/EN",
+    "title": ["Cheesecake para 2-3 personas", "Cheesecake for 2-3 people"],
+    "small": [
+      ["CLÁSICA", "Classic", 13.9],
+      ["PISTACHO", "Pistachio", 14.9],
+      ["LOTUS CON DULCE DE LECHE", "Biscoff with caramel", 13.9],
+      ["FRESA", "Strawberry", 13.9],
+      ["ARÁNDANO", "Blueberry", 13.9],
+      ["MANGO", "Mango", 13.9],
+      ["CHOCOLATE", "Chocolate", 13.9],
+      ["CHOCOLATE BLANCO", "White chocolate", 13.9],
+      ["TURRÓN", "Nougat", 13.9],
+      ["AVELLANA", "Hazelnut", 13.9]
+    ],
+    "portion": [
+      ["CLÁSICA", "Classic", 4.9],
+      ["OTROS SABORES", "Other flavors", 5.9]
+    ]
+  },
+  "sheet": {
+    "_source": "фото №9, №181, №213: печатный лист A4 в акриле на стойке",
+    "small_title": ["Cheesecake para 2/3 personas", "Cheesecake for 2/3 people"],
+    "small": [
+      ["Clásica", "Classic", 13.9],
+      ["Pistacho", "Pistachio", 14.9],
+      ["Lotus con dulce de leche", "Biscoff with caramel", 13.9],
+      ["Fresa", "Strawberry", 13.9],
+      ["Arándanos", "Blueberries", 13.9],
+      ["Chocolate negro", "Dark chocolate", 13.9],
+      ["Chocolate blanco", "White chocolate", 13.9],
+      ["Mango", "Mango", 13.9],
+      ["Turrón", "Almond", 13.9],
+      ["Avellanas", "Hazelnut", 13.9]
+    ],
+    "large_title": ["Cheesecake para 8 personas", "Cheesecake for 8 people"],
+    "large": [
+      ["Clásica", "Classic", 29.9, false],
+      ["Pistacho", "Pistachio", 29.9, false],
+      ["Lotus con dulce de leche", "Biscoff with caramel", 29.9, false],
+      ["Fresa", "Strawberry", 29.9, false],
+      ["Arándanos", "Blueberries", 29.9, false],
+      ["Chocolate negro*", "Dark chocolate", 29.9, true],
+      ["Chocolate blanco*", "White chocolate", 29.9, true],
+      ["Mango*", "Mango", 29.9, true],
+      ["Turrón*", "Almond", 29.9, true],
+      ["Avellanas*", "Hazelnut", 29.9, true]
+    ],
+    "footer": ["PORCIONES INDIVIDUALES A PARTIR DE 4.90", "*consultar disponibilidad"]
+  },
+  "ticket": {
+    "_source": "фото №12 (и те же №13, №260, №274): тикет 31 may. 2026 11:36",
+    "lines": [["Pequeña Dulce de Leche", 13.9], ["Bolsa Rocco", 0.6]],
+    "total": 14.5,
+    "tax": "Impuestos incluidos · IVA 10% · base 13,18 € · cuota 1,32 €",
+    "payment": "Tarjeta de crédito"
+  },
+  "delivery_for_comparison": {
+    "_source": "Uber Eats и Glovo, 18.09.2026 — на сайте не показываются",
+    "small": 15.9,
+    "small_pistacho": 16.9,
+    "large_6_8": 35.9,
+    "large_avellana_uber": 33.9
+  }
+}

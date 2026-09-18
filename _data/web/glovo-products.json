@@ -1,0 +1,266 @@
+[
+ {
+  "id": "42215277168",
+  "externalId": "12",
+  "storeProductId": "12",
+  "name": "Tarta De Queso Pistacho (6-8 Personas)",
+  "price": 35.9,
+  "priceInfo": {
+   "amount": 35.9,
+   "currencyCode": "EUR",
+   "displayText": "35,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/d578847486121f36e43d7ebf591896affd08149f8c8e7d95255778961d8c0c7f",
+  "imageUrl": "https://i.postimg.cc/y6nrk1MB/image.png",
+  "promotions": [],
+  "description": "Una de nuestras creaciones más exclusivas.Cheesecake cremosa elaborada con pistacho de alta calidad, que aporta intensidad, aroma y un sabor profundo y natural. ",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277167",
+  "externalId": "11",
+  "storeProductId": "11",
+  "name": "Tarta De Queso La Clásica (6-8 Personas)",
+  "price": 35.9,
+  "priceInfo": {
+   "amount": 35.9,
+   "currencyCode": "EUR",
+   "displayText": "35,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/ef9124ef7ac63e6c9ad5cd4ac183382cd57c3498138dec41ab2a634e59f11068",
+  "imageUrl": "https://i.postimg.cc/zBrPRVDG/image.png",
+  "promotions": [],
+  "description": "La esencia de nuestra marca.Una tarta de queso artesanal de textura ultra cremosa, elaborada con una cuidada selección de quesos y un horneado preciso que realza su sabor natural. Equilibrada, elegante y atemporal.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277173",
+  "externalId": "2",
+  "storeProductId": "2",
+  "name": "Tarta De Queso Chocolate Blanco (2-3 Personas)",
+  "price": 15.9,
+  "priceInfo": {
+   "amount": 15.9,
+   "currencyCode": "EUR",
+   "displayText": "15,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/fcb709b2f13e5ef3f5487904a98f334d38fbc2e5c3d6c3889c0e7a314f86dbd6",
+  "imageUrl": "https://i.postimg.cc/ZKSj9VB7/image.png",
+  "promotions": [],
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277175",
+  "externalId": "4",
+  "storeProductId": "4",
+  "name": "Tarta De Queso Fresa (2-3 Personas)",
+  "price": 15.9,
+  "priceInfo": {
+   "amount": 15.9,
+   "currencyCode": "EUR",
+   "displayText": "15,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/04e2459864eb0cd9aa91e1683c0a2106ad2664cfeb13747d3bff3bb11f28cba5",
+  "imageUrl": "https://i.postimg.cc/Kvxrcjwf/image.png",
+  "promotions": [],
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277176",
+  "externalId": "5",
+  "storeProductId": "5",
+  "name": "Tarta De Queso La Clásica (2-3 Personas)",
+  "price": 15.9,
+  "priceInfo": {
+   "amount": 15.9,
+   "currencyCode": "EUR",
+   "displayText": "15,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/67813f8fbe6eb9441ebe1f7614ff82eb3dc67a7ec1e342c86e3b2a1b3993482a",
+  "imageUrl": "https://i.postimg.cc/dt6vQcBr/image.png",
+  "promotions": [],
+  "description": "La esencia de nuestra marca.Una tarta de queso artesanal de textura ultra cremosa, elaborada con una cuidada selección de quesos y un horneado preciso que realza su sabor natural. Equilibrada, elegante y atemporal.La elección perfecta para quienes buscan la autenticidad del verdadero cheesecake.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277177",
+  "externalId": "6",
+  "storeProductId": "6",
+  "name": "Tarta De Queso Pistacho (2-3 Personas)",
+  "price": 16.9,
+  "priceInfo": {
+   "amount": 16.9,
+   "currencyCode": "EUR",
+   "displayText": "16,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/6c9080e8e1c2b921bdcf75f636712ba27dee66b9179c11b6cf38ed5d788489ca",
+  "imageUrl": "https://i.postimg.cc/Y9QKJ50G/image.png",
+  "promotions": [],
+  "description": "Una de nuestras creaciones más exclusivas.Cheesecake cremosa elaborada con pistacho de alta calidad, que aporta intensidad, aroma y un sabor profundo y natural. Su textura suave y su carácter gourmet la convierten en una experiencia única para los amantes del pistacho.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277178",
+  "externalId": "7",
+  "storeProductId": "7",
+  "name": "Tarta De Queso Chocolate (2-3 Personas)",
+  "price": 15.9,
+  "priceInfo": {
+   "amount": 15.9,
+   "currencyCode": "EUR",
+   "displayText": "15,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/d331b23f8ff0cf713bac9a7ae577d33c003a8db694aaaccd229602a4235dd588",
+  "imageUrl": "https://i.postimg.cc/wTq8Gbpz/image.png",
+  "promotions": [],
+  "description": "Intensa, sedosa y profundamente golosa.Nuestra tarta de queso de chocolate fusiona la suavidad del queso con la riqueza del chocolate, creando una textura untuosa y un sabor elegante y persistente. Una opción irresistible para los amantes del cacao.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277179",
+  "externalId": "8",
+  "storeProductId": "8",
+  "name": "Tarta De Queso Lotus & Dulce De Leche (2-3 Personas)",
+  "price": 15.9,
+  "priceInfo": {
+   "amount": 15.9,
+   "currencyCode": "EUR",
+   "displayText": "15,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/82f3b9575d8d6b6e6f3a9f9c4dd367808497ffe1b168fe619e5408fd40c3963d",
+  "imageUrl": "https://i.postimg.cc/Zqy1dGrL/image.png",
+  "promotions": [],
+  "description": "Puro placer en cada bocado.Una cheesecake cremosa que combina la intensidad caramelizada de la galleta Lotus con la suavidad del dulce de leche. Rica, equilibrada y adictiva, pensada para los paladares más golosos",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277180",
+  "externalId": "9",
+  "storeProductId": "9",
+  "name": "Tarta De Queso Tarta De Mango (2-3 Personas)",
+  "price": 15.9,
+  "priceInfo": {
+   "amount": 15.9,
+   "currencyCode": "EUR",
+   "displayText": "15,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/5fa53acab93c0849ccef961d1667aea3d5db52775521f7ddd03d4ca79fd144d5",
+  "imageUrl": "https://i.postimg.cc/50QpzrSS/image.png",
+  "promotions": [],
+  "description": "Tarta de mango en formato 2-3 raciones, ideal para compartir.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277166",
+  "externalId": "10",
+  "storeProductId": "10",
+  "name": "Tarta De Queso Arándanos (2-3 Personas)",
+  "price": 15.9,
+  "priceInfo": {
+   "amount": 15.9,
+   "currencyCode": "EUR",
+   "displayText": "15,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/983e44fb678fe01a4404746a8706f7ae21d22da0acbb9fefff66780a571bf96e",
+  "imageUrl": "https://i.postimg.cc/4NKwQV9f/image.png",
+  "promotions": [],
+  "description": "Tarta de arándanos en formato 2-3 raciones, perfecta para compartir.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277169",
+  "externalId": "13",
+  "storeProductId": "13",
+  "name": "Tarta De Queso Chocolate (6-8 Personas)",
+  "price": 35.9,
+  "priceInfo": {
+   "amount": 35.9,
+   "currencyCode": "EUR",
+   "displayText": "35,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/3ea96fc5eb29451b42adff6f8ce91e8bd12d373485288859aaf22a65e8569459",
+  "imageUrl": "https://i.postimg.cc/SRtrVs4K/image.png",
+  "promotions": [],
+  "description": "Intensa, sedosa y profundamente golosa.Nuestra tarta de queso de chocolate fusiona la suavidad del queso con la riqueza del chocolate, creando una textura untuosa y un sabor elegante y persistente. Una opción irresistible para los amantes del cacao.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277170",
+  "externalId": "14",
+  "storeProductId": "14",
+  "name": "Tarta De Queso Lotus & Dulce De Leche (6-8 Personas)",
+  "price": 35.9,
+  "priceInfo": {
+   "amount": 35.9,
+   "currencyCode": "EUR",
+   "displayText": "35,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/0dcff453834ce978e890f72c07b2b9ec0f7579b02a0d27d3bfdb8f31385988c6",
+  "imageUrl": "https://i.postimg.cc/fbjfp5Zb/image.png",
+  "promotions": [],
+  "description": "Puro placer en cada bocado.Una cheesecake cremosa que combina la intensidad caramelizada de la galleta Lotus con la suavidad del dulce de leche. Rica, equilibrada y adictiva, pensada para los paladares más golosos",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277171",
+  "externalId": "15",
+  "storeProductId": "15",
+  "name": "Tarta De Queso Tarta De Mango (6-8 Personas)",
+  "price": 35.9,
+  "priceInfo": {
+   "amount": 35.9,
+   "currencyCode": "EUR",
+   "displayText": "35,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/896b780fb7ec1a94359ce859ee24f81f814e0082bce55a94ee1dbe4faa3277a4",
+  "imageUrl": "https://i.postimg.cc/G3SJW400/image.png",
+  "promotions": [],
+  "description": "Tarta de mango tamaño familiar, ideal para 6–8 raciones. Sabor afrutado y suave",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ },
+ {
+  "id": "42215277172",
+  "externalId": "16",
+  "storeProductId": "16",
+  "name": "Tarta De Queso Arándanos (6-8 Personas)",
+  "price": 35.9,
+  "priceInfo": {
+   "amount": 35.9,
+   "currencyCode": "EUR",
+   "displayText": "35,90 €"
+  },
+  "imageId": "dh:menus-glovo/products/8c99e20162f72862f2efe69a2886ebb7e8f4859dae97e402c99776f070591e5a",
+  "imageUrl": "https://i.postimg.cc/vmz53BLQ/image.png",
+  "promotions": [],
+  "description": "Deliciosa tarta de arándanos para 6–8 personas. Ideal para compartir.",
+  "sponsored": false,
+  "labels": [],
+  "attributeGroups": []
+ }
+]

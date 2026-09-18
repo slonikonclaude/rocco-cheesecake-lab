@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+/**
+ * Токены из DESIGN.md §5. Хардкода цветов в компонентах нет — только эти
+ * переменные. Контраст каждой пары посчитан, значения — там же.
+ */
+@theme {
+  /* Светлые секции: крем фона их логотипа и песок стен зала. */
+  --color-cream: #f5efe8;
+  --color-sand: #eadfd2;
+  --color-line: #dccfbf;
+
+  /* Текст — какао цоколя фасада; вторичный текст 6,3:1 на cream. */
+  --color-cacao: #2a1b16;
+  --color-cacao-soft: #3a2820;
+  --color-cacao-line: #4d382d;
+  --color-muted: #6a5247;
+
+  /* Оранжевый коробки: фон кнопок (текст cacao, 4,6:1) и крупные плоскости. */
+  --color-rocco: #e8582a;
+  --color-rocco-soft: #f0703f;
+  /* Оранжевый как текст на cream (4,95:1). */
+  --color-rocco-deep: #b3421c;
+
+  /* Золото фольги логотипа — линии, звёзды, текст только на cacao (5,4:1). */
+  --color-gold: #b08d57;
+
+  --color-on-dark: #f5efe8;
+  --color-on-dark-muted: #c9b8aa;
+
+  --font-display: var(--font-bodoni), ui-serif, Georgia, serif;
+  --font-sans: var(--font-jost), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  scroll-behavior: smooth;
+  /* Якорные ссылки не загоняют заголовок под липкую шапку (h-18 = 4.5rem); scroll-mt у секций не ставится — он бы сложился с этим. */
+  scroll-padding-top: 4.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+}
+
+/* Печать без прокрутки: блоки ниже экрана ещё не «проявились» — показываем всё. */
+@media print {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-cacao);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-rocco);
+  color: var(--color-cacao);
+}
+
+/* Тон секции задаёт схему: браузер красит скроллбары и формы в тон. */
+.tone-light {
+  color-scheme: light;
+  background-color: var(--color-cream);
+  color: var(--color-cacao);
+}
+.tone-deep {
+  color-scheme: light;
+  background-color: var(--color-sand);
+  color: var(--color-cacao);
+}
+.tone-dark {
+  color-scheme: dark;
+  background-color: var(--color-cacao);
+  color: var(--color-on-dark);
+}
+.tone-accent {
+  color-scheme: light;
+  background-color: var(--color-rocco);
+  color: var(--color-cacao);
+}
+
+/* Фокус: какао на светлом (14,5:1), крем на тёмном, какао на оранжевом. */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-cacao);
+    outline-offset: 3px;
+  }
+  .tone-dark :focus-visible {
+    outline-color: var(--color-on-dark);
+  }
+}
+
+/*
+ * Классы-компоненты — в слое components: утилиты Tailwind v4 (text-*, mr-*, hidden)
+ * должны их перебивать, а неслоёные правила перебили бы утилиты.
+ */
+@layer components {
+  /* Цены, часы, рейтинг — табличные цифры (DESIGN.md §6). */
+  .tabular {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  /* Надзаголовки — мелкий капс с разрядкой, как «The Cheesecake Lab» под логотипом. */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.76rem;
+    font-weight: 500;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+  }
+
+  /* Вордмарк: Jost с широкой разрядкой, как «ROCCO» на коробке и вывеске. */
+  .wordmark {
+    font-family: var(--font-sans);
+    font-weight: 400;
+    letter-spacing: 0.26em;
+    /* Разрядка добавляет хвост справа — компенсируем, чтобы слово было по центру своей строки. */
+    margin-right: -0.26em;
+    text-transform: uppercase;
+  }
+
+  /*
+   * Арка — ниши у их кассы и в стене-витрине (DESIGN.md §4). Верх — полукруг при
+   * любой ширине: радиус 9999px упирается в половину ширины.
+   */
+  .arch {
+    border-radius: 9999px 9999px 0.5rem 0.5rem;
+    overflow: hidden;
+  }
+
+  /* Подсветка ниши: тонкая золотая линия по контуру арки, как LED-подсветка их ниш. */
+  .niche {
+    position: relative;
+    isolation: isolate;
+  }
+  .niche::after {
+    content: "";
+    position: absolute;
+    inset: 0.5rem;
+    border: 1px solid color-mix(in srgb, var(--color-gold) 55%, transparent);
+    border-radius: 9999px 9999px 0.25rem 0.25rem;
+    pointer-events: none;
+  }
+
+  /* Пунктир между названием и ценой — как отточие на их табличке. */
+  .leader {
+    flex: 1 1 1.5rem;
+    min-width: 1rem;
+    border-bottom: 1px dotted var(--color-line);
+    transform: translateY(-0.35em);
+  }
+
+  /* Заголовки не оставляют висячих слов. */
+  .balance {
+    text-wrap: balance;
+  }
+}

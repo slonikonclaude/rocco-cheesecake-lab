@@ -1,0 +1,74 @@
+{
+  "arandanos": {
+    "width": 1280,
+    "height": 853
+  },
+  "avellana": {
+    "width": 660,
+    "height": 440
+  },
+  "bolsa": {
+    "width": 1807,
+    "height": 2400
+  },
+  "chocolate-blanco": {
+    "width": 1280,
+    "height": 853
+  },
+  "chocolate": {
+    "width": 727,
+    "height": 727
+  },
+  "clasica": {
+    "width": 735,
+    "height": 733
+  },
+  "escaparate": {
+    "width": 1800,
+    "height": 2400
+  },
+  "fachada": {
+    "width": 1800,
+    "height": 2400
+  },
+  "fresa": {
+    "width": 1280,
+    "height": 853
+  },
+  "hero": {
+    "width": 2400,
+    "height": 1920
+  },
+  "lotus": {
+    "width": 729,
+    "height": 734
+  },
+  "mango": {
+    "width": 1280,
+    "height": 853
+  },
+  "mostrador": {
+    "width": 1800,
+    "height": 2400
+  },
+  "piramide": {
+    "width": 1800,
+    "height": 2400
+  },
+  "pistacho": {
+    "width": 731,
+    "height": 733
+  },
+  "porcion": {
+    "width": 1080,
+    "height": 1440
+  },
+  "tienda": {
+    "width": 1800,
+    "height": 2400
+  },
+  "torre-cajas": {
+    "width": 1800,
+    "height": 2400
+  }
+}
