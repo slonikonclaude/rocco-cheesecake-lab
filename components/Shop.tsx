@@ -10,8 +10,9 @@ import { restaurant } from "@/lib/restaurant";
 /**
  * «La tienda» (DESIGN.md §7.5): четыре кадра зала с подписью под каждым (подпись
  * и есть описание — у самого <img> alt пустой, чтобы диктор не читал дважды) и
- * короткий список «Bueno saber». Факты — атрибут доступности карточки Google,
- * оплата картой (тикет), парковка (детали отзывов), чек по оценкам Google.
+ * короткий список «Bueno saber». Факты — «sin sitio para comer» (отзыв) и зал без
+ * столов на фото июля 2026, атрибут доступности карточки Google, оплата картой (тикет),
+ * парковка (детали отзывов), чек по оценкам Google.
  */
 export function Shop({ locale }: { locale: Locale }) {
   const dict = getDictionary(locale);
@@ -20,6 +21,7 @@ export function Shop({ locale }: { locale: Locale }) {
 
   const shots = [photos.escaparate, photos.mostrador, photos.tienda, photos.fachada];
   const facts = [
+    s.facts.takeaway,
     s.facts.wheelchair,
     s.facts.card,
     s.facts.parking,

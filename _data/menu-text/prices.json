@@ -1,7 +1,7 @@
 {
   "_note": "Цены tienda, прочитанные с фото гостей в карточке Google (панель Поиска, 18.09.2026). Номера фото — индексы _data/photos/thumb/index.json.",
   "board": {
-    "_source": "фото №208: акриловая табличка-арка у кассы, ES/EN",
+    "_source": "фото №208: акриловая табличка-арка у кассы, ES/EN (EXIF 2026-05-01)",
     "title": ["Cheesecake para 2-3 personas", "Cheesecake for 2-3 people"],
     "small": [
       ["CLÁSICA", "Classic", 13.9],
@@ -21,7 +21,7 @@
     ]
   },
   "sheet": {
-    "_source": "фото №9, №181, №213: печатный лист A4 в акриле на стойке",
+    "_source": "фото №9, №181, №213: печатный лист A4 в акриле на стойке (EXIF №9 — 2026-05-31, №181 — 2026-06-02, №213 без EXIF)",
     "small_title": ["Cheesecake para 2/3 personas", "Cheesecake for 2/3 people"],
     "small": [
       ["Clásica", "Classic", 13.9],

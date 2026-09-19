@@ -13,11 +13,12 @@ Next.js на GitHub Pages. Каждый пункт — решение и одн�
 |---|---|
 | Название, адрес, координаты, plus code FJ9G+JJ, телефон 641 15 46 98, категория «Tienda de tartas», недельные часы, рейтинг 4,8 (575), гистограмма звёзд 521/21/13/7/13, темы отзывов, атрибут «Acceso para sillas de ruedas», ссылка «Pedir online» | карточка Google Maps `0xd6049ee7e4703d9:0x3e9cd42b3296e7c6`, снята 18.09.2026 (limited view, 25 фото в payload) → `_data/maps/place-*.json` |
 | Описание владельца («Bienvenidos a Rocco cheesecakers…»), «Precio por persona: 10–20 €» (228 оценок), 266 фото гостей и владельца | панель Google Поиска (`search.google.com/local/reviews?placeid=ChIJ2QNHfu5JYA0RxueWMivUnD4`) → `_data/maps/search-panel.txt`, `search-photos.json` |
-| **Цены в tienda**: табличка-арка у кассы (ES/EN: 2–3 personas + «Porción: Clásica 4.90 / Otros sabores 5.90») и печатный лист на стойке («Cheesecake para 2/3 personas» + «para 8 personas», «Porciones individuales a partir de 4.90», «*consultar disponibilidad») | фото гостей №208 (табличка), №9, №181, №213 (лист) → `_data/menu-text/prices.json` |
+| **Цены в tienda** (EXIF: табличка — 01.05.2026, лист — 31.05 и 02.06.2026, тикет — 31.05.2026; на сайте «tal como se ve en mayo y junio de 2026»): табличка-арка у кассы (ES/EN: 2–3 personas + «Porción: Clásica 4.90 / Otros sabores 5.90») и печатный лист на стойке («Cheesecake para 2/3 personas» + «para 8 personas», «Porciones individuales a partir de 4.90», «*consultar disponibilidad») | фото гостей №208 (табличка), №9, №181, №213 (лист) → `_data/menu-text/prices.json` |
 | Подтверждение цены: тикет 31.05.2026 «Pequeña Dulce de Leche 13,90 € · Bolsa Rocco 0,60 € · IVA 10 % incluido» | фото гостя №12 (в репо не идёт: на тикете NIF владельца) |
 | Студийные фото 13 тортов в коробке + общий кадр 2880×2304, описания 4 вкусов от владельца | Uber Eats (`__REACT_QUERY_STATE__`) и Glovo (RSC flight, оригиналы с `glovo.dhmedia.io`) → `_data/web/` |
 | Instagram @roccocheesecake: 18,9 тыс., описание «cheesecake artesanal elevada a la alta pastelería. The iconic destination in Valencia» | профиль без входа → `_data/maps/ig/` |
-| Отзывы: 10 испанских (hl=es) и 5 английских | Maps (limited view — по 10 на язык) → `_data/maps/reviews-*.json` |
+| Отзывы: 10 испанских и 5 английских с полным текстом (Maps, limited view) + весь корпус 573 из 575 (панель Поиска, «Más reseñas de usuarios», 19.09.2026; полный текст у 36, у остальных — начало) | сырые выгрузки с полными именами — только локально (`.gitignore`); в репо обезличенная копия `_data/maps/reviews-public.json` («Имя И.») |
+| Даты снимков: EXIF `DateTimeOriginal` оригиналов `=s0` у 212 из 287 фото | `_data/maps/photo-dates.json` (`_data/scripts/exif-dates.py`, первые 96 КБ файла) |
 
 Ничего не выдумано: факты — `lib/restaurant.ts`, вкусы и цены — `lib/menu.ts`, отзывы —
 `lib/reviews.ts`, снимки — `lib/photos.ts`; компоненты данные не дублируют.
@@ -36,7 +37,10 @@ Next.js на GitHub Pages. Каждый пункт — решение и одн�
 - Турона нет ни в Uber Eats, ни в Glovo, студийного фото нет, а на фото гостей его не отличить от авельяны. → В карте он есть (табличка и лист), в витрине — карточка без фото с диском-крышкой коробки вместо снимка.
 - Для 8 personas у chocolate negro, chocolate blanco, mango, turrón и avellana на листе «*consultar disponibilidad». → Так же на сайте, звёздочкой и сноской.
 - «Porción otros sabores 5,90» (табличка) = «con topping +1 €» (отзыв Sara O.) — одно и то же, на сайте формулировка таблички.
-- Дата открытия нигде не написана (первые фото и отзывы — январь 2026). → Год не пишем.
+- Дата открытия нигде не написана: плакат «Próxima apertura» снят 17.07.2025 (EXIF), витрина с коробками — 02.12.2025, первые отзывы «hace un año» — жалобы, что ещё закрыто. → Год не пишем.
+- **Коробка.** Фото с тортами в оранжевых коробках — до конца июля 2026, витрина с пирамидой коробок — 26.08.2026. Но отзыв «hace 3 semanas» (1★): «Tenéis que eliminar las fotos con cajas bonitas, como ya lo hacéis con plástico de 0,01 €», и ещё один месячной давности про подарок обрезан на «Pregunté específicamente al personal si podían…». Полных текстов limited view не даёт (поиск по отзывам в карточке фильтр игнорирует). → Сайт не обещает, что каждый торт уходит в коробке: коробка — «sello de la casa», в «Para regalar» совет «si es para regalo, pídela al comprar»; у «Tarta pequeña» — «una tarta entera para compartir» вместо «en su caja».
+- **Мест нет:** «sin sitio para comer» (отзыв, 01.2026), на фото зала июля 2026 столов нет. → В «Bueno saber»: «tienda para llevar, no hay mesas».
+- Цены за полгода: «la semana pasada 4,95 €, hoy 5,95 €» (отзыв ~02.2026, порция) — до таблички цены не были вывешены; табличка мая 2026 даёт 4,90/5,90, «casi 15 €» за торт в отзыве 08.2026 сходится с 13,90 + пакет или 14,90. Турон продавался и в июне («la de pistacho y turrón», 06.2026).
 - Фото №26 (коробка с бантом, 1728×2304) и баннер Glovo 1536×1024 — вероятные ИИ-рендеры (размеры генератора, «The Cheesecalke Lab» на коробках). → Не используются.
 - Гости с лицами (№22, 237–239, 251) и тикеты (NIF) — не используются и не коммитятся.
 - «Horas punta» в limited view нет. → Секции нет.

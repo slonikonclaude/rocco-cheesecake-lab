@@ -53,3 +53,12 @@ next-env.d.ts
 /_data/web/*.html
 /_data/web/*-flight.txt
 /_data/maps/searchviewer.html
+# Сырые выгрузки Google с полными именами авторов отзывов (панель Maps, панель Поиска, payload места) —
+# только локально; в репозитории — обезличенная копия корпуса _data/maps/reviews-public.json
+# («Имя И.», `_data/scripts/sanitize-reviews.mjs`) и отбор витрины _data/reviews-selected.json.
+/_data/maps/reviews-*.json
+!/_data/maps/reviews-public.json
+/_data/maps/reviews-all.json
+/_data/maps/search-reviews-*.json
+/_data/maps/review-search-*.json
+/_data/maps/*.txt

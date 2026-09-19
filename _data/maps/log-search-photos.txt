@@ -1,9 +1,0 @@
-opened true
-step 0 urls 22 scrollers 1 487/2007
-step 10 urls 71 scrollers 1 5357/7574
-step 20 urls 122 scrollers 1 10227/11524
-step 30 urls 173 scrollers 1 15097/17387
-step 40 urls 223 scrollers 1 19967/21042
-step 50 urls 273 scrollers 1 24837/25560
-step 60 urls 277 scrollers 1 24951/25560
-saved 266 gps 265

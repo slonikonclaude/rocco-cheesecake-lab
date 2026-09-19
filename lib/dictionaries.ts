@@ -63,7 +63,7 @@ const es = {
   prices: {
     eyebrow: "Formatos y precios",
     title: "Tres tamaños, precios de tienda",
-    note: "La carta del mostrador, con IVA incluido. En Glovo y Uber Eats los precios son los de cada aplicación.",
+    note: "La carta del mostrador, con IVA incluido, tal como se ve en mayo y junio de 2026. En Glovo y Uber Eats los precios son los de cada aplicación.",
     slice: {
       name: "Porción",
       serves: "Para uno",
@@ -74,7 +74,7 @@ const es = {
       name: "Tarta pequeña",
       serves: "Para 2–3 personas",
       price: (from: string, pistachio: string) => `${from} · pistacho ${pistachio}`,
-      text: "La más pequeña de la tienda: una tarta entera en su caja redonda.",
+      text: "La más pequeña de la tienda: una tarta entera para compartir.",
     },
     large: {
       name: "Tarta grande",
@@ -91,18 +91,18 @@ const es = {
     footnotes: [
       "* Tarta para 8 personas: consultar disponibilidad.",
       "Bolsa ROCCO: 0,60 €.",
-      "Precios de la carta del mostrador; pueden cambiar. Si vas a por una tarta grande, llama antes.",
+      "Precios de la tabla del mostrador (mayo de 2026), de su hoja de precios y de un ticket (mayo y junio de 2026); pueden cambiar. Si vas a por una tarta grande, llama antes.",
     ],
   },
 
   gift: {
     eyebrow: "Para regalar",
     title: "La caja naranja ya es medio regalo",
-    text: "Cada tarta sale en su caja redonda naranja con el logo en dorado y, si quieres, en la bolsa de la casa. El packaging sale en 21 reseñas de Google.",
+    text: "La caja redonda naranja con el logo en dorado es el sello de la casa. El packaging sale en 21 reseñas de Google.",
     quote: "Ideal para hacer un regalo dulce.",
     quoteAuthor: "J. V., en Google",
     points: [
-      "Caja redonda naranja con el logo ROCCO en dorado",
+      "Caja redonda naranja con el logo en dorado: si es para regalo, pídela al comprar",
       "Bolsa de la casa con asas de cinta, 0,60 €",
       "Tartas para 2–3 personas, listas para llevar; la de 8, según disponibilidad",
     ],
@@ -114,6 +114,7 @@ const es = {
     text: "Paredes color arena, una hornacina en arco iluminada tras el mostrador y una pared de vitrinas en la que cada tarta tiene su nicho. En el escaparate, cajas naranjas cuelgan de cuerdas sobre una pirámide de cajas: se reconoce desde la acera.",
     factsTitle: "Bueno saber",
     facts: {
+      takeaway: "Es una tienda para llevar: no hay mesas",
       wheelchair: "Entrada accesible en silla de ruedas",
       card: "Se paga con tarjeta",
       parking: "Aparcar es difícil: mejor a pie o en un parking de pago cercano",
@@ -237,7 +238,7 @@ const en: Dictionary = {
   prices: {
     eyebrow: "Sizes & prices",
     title: "Three sizes, in-store prices",
-    note: "The counter menu, VAT included. On Glovo and Uber Eats each app sets its own prices.",
+    note: "The counter menu, VAT included, as seen in May and June 2026. On Glovo and Uber Eats each app sets its own prices.",
     slice: {
       name: "Slice",
       serves: "For one",
@@ -248,7 +249,7 @@ const en: Dictionary = {
       name: "Small cake",
       serves: "Serves 2–3",
       price: (from: string, pistachio: string) => `${from} · pistachio ${pistachio}`,
-      text: "The smallest in the shop: a whole cake in its round box.",
+      text: "The smallest in the shop: a whole cake to share.",
     },
     large: {
       name: "Large cake",
@@ -265,18 +266,18 @@ const en: Dictionary = {
     footnotes: [
       "* Cake for 8: ask for availability.",
       "ROCCO bag: €0.60.",
-      "Prices from the counter menu and subject to change. Going for a large cake? Call ahead.",
+      "Prices from the counter board (May 2026), their price sheet and a receipt (May and June 2026); subject to change. Going for a large cake? Call ahead.",
     ],
   },
 
   gift: {
     eyebrow: "To give",
     title: "The orange box is half the gift",
-    text: "Every cake leaves in its round orange box with the logo in gold and, if you like, in the house bag. The packaging comes up in 21 Google reviews.",
+    text: "The round orange box with the logo in gold is the house signature. The packaging comes up in 21 Google reviews.",
     quote: "Drawn in first by the shop’s strikingly elegant packaging…",
     quoteAuthor: "Alex L., on Google",
     points: [
-      "Round orange box with the ROCCO logo in gold",
+      "Round orange box with the logo in gold: if it’s a gift, ask for it when you buy",
       "House bag with ribbon handles, €0.60",
       "Cakes for 2–3 ready to take away; the one for 8 subject to availability",
     ],
@@ -288,6 +289,7 @@ const en: Dictionary = {
     text: "Sand-coloured walls, a lit arched niche behind the counter and a wall of display fridges where every cake has its own alcove. In the window, orange boxes hang from ropes above a pyramid of boxes — you can’t miss it from the pavement.",
     factsTitle: "Good to know",
     facts: {
+      takeaway: "It’s a takeaway shop: there are no tables",
       wheelchair: "Wheelchair-accessible entrance",
       card: "Card payments accepted",
       parking: "Parking is hard: walk, or use a nearby paid car park",
